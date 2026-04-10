@@ -1,0 +1,10 @@
+# C++
+*.exe
+*.out
+
+# Rust
+target/
+
+# Sistema
+.DS_Store
+Thumbs.db
