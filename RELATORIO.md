@@ -10,6 +10,8 @@ A programação concorrente é utilizada quando múltiplas tarefas precisam ser 
 
 Neste trabalho, foi desenvolvida uma simulação de tráfego com semáforos utilizando threads, com implementação em C++ e Rust. A proposta foi modelar um cruzamento com quatro direções e aplicar mecanismos de sincronização para garantir consistência no estado compartilhado do sistema.
 
+slide: https://docs.google.com/presentation/d/1PIs_kvDompdC1PJIbM_AU_g16ZUbiA37ju0bKM0FTe8/edit?usp=sharing
+
 ## 2. Objetivo
 
 O objetivo do trabalho é desenvolver uma solução concorrente que simule o funcionamento de um cruzamento com semáforos, demonstrando o uso de threads, sincronização com mutex e controle de região crítica, além de discutir desafios como condição de corrida, deadlock e desempenho.
@@ -132,17 +134,10 @@ O trabalho demonstrou a aplicação prática de programação concorrente com th
 
 Além disso, o projeto permitiu discutir desafios importantes da concorrência, como deadlock, desempenho e clareza na organização da lógica entre múltiplas threads.
 
-## 12. Estrutura do projeto
+## 12. referenciais
 
-```text
-simulacao-semaforos-threads/
-├── README.md
-├── .gitignore
-├── RELATORIO.md
-├── cpp/
-│   └── trafego.cpp
-├── rust/
-│   ├── Cargo.toml
-│   └── src/
-│       └── main.rs
-└── slides/
+https://www.youtube.com/watch?v=tiBJIiiyuho
+https://www.youtube.com/watch?v=xNBMNKjpJzM
+https://www.youtube.com/watch?v=y73bgQNluBk
+https://www.youtube.com/watch?v=OoxCBSKURfg
+https://www.youtube.com/watch?v=JClYdK103QQ
